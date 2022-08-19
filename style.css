@@ -27,7 +27,7 @@ body {
   .container {
     max-width: 850px;
     min-height: 100vh;
-    /* max-height: 1340px; */
+    max-height: 1340px;
     background-color: #fff;
     padding: 20px 35px;
     border: 1px solid #aaa;
@@ -37,6 +37,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+  }
+  .fx-row li{
+    flex-basis: 50%;
   }
   .font-bold {
     font-weight: bold;
